@@ -5,7 +5,6 @@ import pandas as pd
 import tensorflow as tf
 from utils.disease import disease_dic
 import requests
-import config
 import pickle
 import io
 import torch

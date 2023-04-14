@@ -17,12 +17,6 @@ from utils.model import ResNet9
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 
-@st.cache()
-def load_model():
-    model = tf.keras.models.load_model("model.h5")
-    return model
-
-
 disease_classes = ['Apple___Apple_scab',
                    'Apple___Black_rot',
                    'Apple___Cedar_apple_rust',
